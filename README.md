@@ -64,16 +64,19 @@ Setup
 
 Run the configure command and automated setup will begin. 
 There are two modes you can fun Fog in: secure mode or trusted
-mode.
+mode.  
+
   Secure Mode -You enter your username or password   
                or both each time you send or recieve
-               a file
+               a file  
+
   Trusted Mode -No user authentication is needed
-                after first time setup.
+                after first time setup.  
+
 The configure script will ask for the following information
   Domain or IP address of server
   path to ssh key (can leave blank if NA)
 
 If using trusted mode, the following will aslo be prompted
-  password for ssh key (can be left blank if NA)
+  password for ssh key (can be left blank if NA) (Warning, will be stored in plaintext)
   Username: username for the user on server 
