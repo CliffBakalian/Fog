@@ -5,7 +5,8 @@
 
 
 int main(int argc, char** argv){
-  fog_init();
+  if(strcmp(argv[1], "init") == 0)
+    fog_init();
   return(0);
 }
 
