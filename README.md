@@ -20,6 +20,9 @@ git pull which will update the entire repo, you can make a
 downpour of speific files. Think of it just scp'ing files but
 before an upload, the file is encrypted and after a download 
 the file is decrypted.
+## Resources
+
+I will be using libgcrypt for my encrpytion and libssh2 for my ssh/scp activities.
 
 ## Background 
 Since this is made more for my own personal use, space 
